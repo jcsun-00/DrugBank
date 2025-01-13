@@ -6,12 +6,10 @@ The version used in the HDN-DDI paper is the same as that used in the [BDN-DDI](
 
 If you want to use this dataset to verify the performance of HDN-DDI, please download the dataset and place the files according to the following structure:
 ```
-- drugbank_test\
-    - drugbank\
-        - cold_start\
-            ...
-        - warm_start\
-            ...
+- drugbank_test /
+    - DrugBank /
+        - cold_start / ...
+        - warm_start / ...
         - ddis.csv
         - drug_smiles.csv
         - id_data_dict_dsn_full_connect.pkl
